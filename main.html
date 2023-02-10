@@ -7,10 +7,55 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<form method="get">
+		<div>
+			<label for="name">Name*</label>
+			<input type="text" required id="name">
+		</div>
+		<div>
+			<label for="email">Email*</label>
+			<input type="email" required id="email">
+		</div>
+		<div>
+			Gender*
+			<label for="male">Male</label>
+			<input type="radio" required id="male" name="mygender">
 
+			<label for="female">Female</label>
+			<input type="radio" required id="female" name="mygender">
+
+			<label for="other">Others</label>
+			<input type="radio" required id="other" name="mygender">
+		</div>
+		<div>
+			Laptop Brands:
+			<label for="apple">Apple</label>
+			<input type="checkbox" id="apple">
+			
+			<label for="asus">Asus</label>
+			<input type="checkbox" id="asus">
+
+			<label for="HP">HP</label>
+			<input type="checkbox" id="HP">
+		</div>
+		<div>
+			<label for="age">Age*</label>
+			<input type="number" required id="age">
+		</div>
+		<div>
+			<label for="dob">DOB*</label>
+			<input type="date" required id="dob">
+		</div>
+		<div>
+			<label for="password">Password*</label>
+			<input type="password" required id="password">
+		</div>
+		<div>
+			<input type="submit" value="Submit Now">
+		</div>
+		
+		
+	</form>
 </body>
 
 </html>
